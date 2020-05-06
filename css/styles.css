@@ -1,0 +1,173 @@
+/*div{
+  background-color: #eaf6f6;
+}*/
+
+span
+{
+  text-decoration: underline;
+}
+
+body
+{
+  /*background-color: #e4f9f5;*/
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+h1
+{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;    /*top right bottom left*/
+}
+
+h2
+{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+h3
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #11cdd4;
+}
+
+hr
+{
+  border: none;
+  border-bottom: 5px dotted;
+  width: 40px;
+  margin: 100px auto 100px auto;
+  border-color: grey;
+}
+
+/*.ch
+{
+  float: right;
+}*/
+
+.brief-self-desc
+{
+  width: 30%;
+  margin: auto;
+}
+
+.skills
+{
+  margin-bottom: 150px;
+}
+
+.my-skills
+{
+  margin-bottom: 100px;
+}
+
+.mini-desc
+{
+  /*color: #00909E;*/
+  font-weight: normal;
+}
+
+.skill-row
+{
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  width: 50%;
+  text-align: left;
+}
+
+.we-img
+{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.ts-img
+{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.copyright
+{
+  color: #EAF6F6;
+}
+
+.top-container
+{
+  /*background-color: #e0ebe8;*/
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud
+{
+  position:absolute;
+  top:50px;
+  right: 300px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container
+{
+  margin-top: 50px;
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  height: 100px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.myButton {
+	/*box-shadow: 0 10px 14px -7px #11cdd4;*/
+	background:linear-gradient(to bottom, #11cdd4 , #11999e );
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+  margin: 50px auto 100px auto;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+  color: #ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
